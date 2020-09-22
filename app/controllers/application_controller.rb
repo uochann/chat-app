@@ -1,6 +1,5 @@
 class ApplicationController < ActionController::Base
   before_action :authenticate_user!
-<<<<<<< Updated upstream
   before_action :configure_permitted_parameters, if: :devise_controller?
 
   protected
@@ -10,6 +9,3 @@ class ApplicationController < ActionController::Base
   end
 end
 
-=======
-end
->>>>>>> Stashed changes
